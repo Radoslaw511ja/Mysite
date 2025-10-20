@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART MARKET SP Z O O</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  background-color: #5a189a;
+}
+
+    section {
+      width: 100vw;
+      height: 100vh;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1, h2, h3, p {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-group {
+      margin-top: 30px;
+    }
+
+    .btn {
+      background-color: white;
+      color: #5a189a;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      margin-right: 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .dark-bg {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .half-image {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .half-image img {
+      max-width: 45%;
+      border-radius: 10px;
+    }
+
+    .features, .steps {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .features div, .steps div {
+      width: 30%;
+    }
+
+    .form-small {
+      height: 50vh;
+    }
+
+    .contact-info {
+      font-size: 1.5rem;
+      line-height: 2.2rem;
+    }
+
+    @media (max-width: 900px) {
+      h1, h2, h3, p {
+        font-size: 1.5rem;
+      }
+
+      .features, .steps, .half-image {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .features div, .steps div, .half-image img {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. Główna scena -->
+  <section class="dark-bg">
+    <h1>SMART MARKET SP Z O O</h1>
+    <p>Tworzymy strategie, które przyciągają. Łączymy reklamę, SEO i budowanie marki w skuteczny ekosystem wzrostu.</p>
+    <div class="btn-group">
+      <a href="#kontakt" class="btn">Kontakt</a>
+      <a href="#uslugi" class="btn">Usługi</a>
+    </div>
+  </section>
+
+  <!-- 2. O nas -->
+  <section>
+    <h2>Kim jesteśmy?</h2>
+    <div class="half-image">
+      <div>
+        <p>SMART MARKET to zespół specjalistów od reklamy, marketingu, SEO i doradztwa brandingowego. Pomagamy firmom zaistnieć, przyciągnąć uwagę i przekształcić widoczność w realne wyniki.</p>
+        <p>Nasze działania są oparte na danych, kreatywności i pasji do komunikacji. Stawiamy na długoterminowe relacje i mierzalne efekty.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1074" alt="O nas">
+    </div>
+  </section>
+
+  <!-- 3. Usługi -->
+  <section id="uslugi">
+    <h2>Co oferujemy?</h2>
+    <div class="features">
+      <div>
+        <h3>Reklama i kampanie</h3>
+        <p>Tworzymy kompleksowe kampanie reklamowe – od Google Ads po media społecznościowe. Skuteczność to nasz priorytet.</p>
+      </div>
+      <div>
+        <h3>SEO & Pozycjonowanie</h3>
+        <p>Poprawiamy widoczność Twojej strony w wyszukiwarkach dzięki optymalizacji technicznej i treściowej.</p>
+      </div>
+      <div>
+        <h3>Doradztwo brandingowe</h3>
+        <p>Budujemy silne marki od podstaw – strategia, identyfikacja wizualna, ton komunikacji, pozycjonowanie rynkowe.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Nasze supermoce -->
+  <section>
+    <h2>Dlaczego my?</h2>
+    <div class="features">
+      <div>
+        <h3>Strategiczne podejście</h3>
+        <p>Nie działamy przypadkowo – każda decyzja jest wynikiem analizy i planowania.</p>
+      </div>
+      <div>
+        <h3>Transparentna współpraca</h3>
+        <p>Jesteśmy otwarci, komunikatywni i nastawieni na partnerskie relacje z klientami.</p>
+      </div>
+      <div>
+        <h3>Skuteczność</h3>
+        <p>Wyniki mówią same za siebie – nasi klienci osiągają cele szybciej i efektywniej.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Jak pracujemy -->
+  <section>
+    <h2>Jak wygląda nasz proces?</h2>
+    <div class="steps">
+      <div>
+        <h3>1. Analiza & Audyt</h3>
+        <p>Diagnozujemy potrzeby Twojej marki i analizujemy otoczenie rynkowe.</p>
+      </div>
+      <div>
+        <h3>2. Strategia & Planowanie</h3>
+        <p>Tworzymy plan działania dostosowany do Twoich celów i budżetu.</p>
+      </div>
+      <div>
+        <h3>3. Wdrożenie & Optymalizacja</h3>
+        <p>Realizujemy, mierzymy, optymalizujemy. Zawsze na bieżąco z wynikami.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Formularz kontaktowy -->
+  <section class="dark-bg form-small">
+    <h2>Porozmawiajmy!</h2>
+    <p>Masz pomysł lub pytanie? Chętnie Cię poznamy. Zostaw wiadomość – odezwiemy się wkrótce.</p>
+  </section>
+
+  <!-- 7. Kontakt -->
+  <section class="dark-bg" id="kontakt">
+    <h2>Skontaktuj się z nami</h2>
+    <p class="contact-info">
+      Ul. Bóżnicza 15-6, Poznań 61-751<br>
+      Email: <a href="mailto:info@smartmarket.services" style="color: white;">info@smartmarket.services</a>
+    </p>
+    <p>Jesteśmy gotowi, by pomóc Ci rozwinąć Twoją markę. Zrób pierwszy krok i napisz do nas już dziś!</p>
+  </section>
+
+  <!-- 8. Stopka -->
+  <footer style="width: 100%; background-color: rgba(0, 0, 0, 0.7); text-align: center; padding: 20px 0;">
+    <p style="font-size: 1.2rem; color: white;">© 2025 SMART MARKET SP Z O O. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
